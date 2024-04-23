@@ -79,9 +79,9 @@ const Home = () => {
             <div
               className={`grid ${cardType === "landscape" ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}  mt-5 gap-10`}
             >
-              <ProductCard cardType={cardType} />
-              <ProductCard cardType={cardType} />
-              <ProductCard cardType={cardType} />
+              <ProductCard cardType={cardType} id={1} />
+              <ProductCard cardType={cardType} id={2} />
+              <ProductCard cardType={cardType} id={3} />
             </div>
           </div>
         </div>
