@@ -3,7 +3,6 @@
 import React from "react";
 import { GoHeart } from "react-icons/go";
 import orangeUrl from "../assets/orange.png";
-// import { TiStarOutline } from "react-icons/ti";
 import { CiShoppingCart } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
 import StarRating from "./StarRating";
