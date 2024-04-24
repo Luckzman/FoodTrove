@@ -3,7 +3,7 @@ import React from "react";
 const PaymentMethodCard = () => {
   return (
     <div className="p-[16px] rounded-md border-[1px] border-solid border-[#E9E9E9]">
-      <h1 className="font-semibold text-[20px] leading-[24px] mb-[8spx]">
+      <h1 className="font-semibold text-[20px] leading-[24px] mb-[8px]">
         Payment Method
       </h1>
       <p className="text-[14px] text-[#7A7A7A] leading-[24px]">
