@@ -7,7 +7,11 @@ function App() {
   return (
     <>
       <Header />
-      <Routes />
+      <div className="container mx-auto px-5">
+        <div className="my-10">
+          <Routes />
+        </div>
+      </div>
     </>
   );
 }
