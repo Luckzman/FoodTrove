@@ -6,7 +6,7 @@ type StarRating = {
 }
 const StarRating = ({ review }: StarRating) => {
   return (
-    <div className=" mt-[10px] flex items-center">
+    <div className=" flex items-center">
       <div className="flex mr-5">
         <TiStarOutline />
         <TiStarOutline />

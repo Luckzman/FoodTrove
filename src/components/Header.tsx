@@ -3,6 +3,7 @@ import Logo from "../assets/foodtrove-logo.jpg";
 import { BsPerson } from "react-icons/bs";
 import { CiHeart } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
+// import { Link } from "react-router-dom";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -46,7 +47,7 @@ const Header = () => {
                       <CiHeart /> Wishlist
                     </span>
                   </ListItem>
-                  <ListItem NavLink="/#">
+                  <ListItem NavLink="/cart">
                     <span className="flex items-center gap-2">
                       <CiShoppingCart /> Cart
                     </span>
@@ -79,15 +80,13 @@ type ListItem = {
 
 const ListItem = ({ children, NavLink }: ListItem) => {
   return (
-    <>
-      <li>
-        <a
-          href={NavLink}
-          className="flex py-2 text-base font-medium text-body-color hover:text-dark lg:ml-12 lg:inline-flex"
-        >
-          {children}
-        </a>
-      </li>
-    </>
+    <li>
+      <a
+        href={NavLink}
+        className="flex py-2 text-base font-medium text-body-color hover:text-dark lg:ml-12 lg:inline-flex"
+      >
+        {children}
+      </a>
+    </li>
   );
 };
