@@ -2,7 +2,8 @@ import React from "react";
 import SummaryCard from "../components/SummaryCard";
 import DeliveryMethodCard from "../components/DeliveryMethodCard";
 import PaymentMethodCard from "../components/PaymentMethodCard";
-import ATMPaymentCard from "../components/ATMPaymentCard";
+import CustomerForm from "../components/CustomerForm";
+import BillingForm from "../components/BillingForm";
 
 const Checkout = () => {
   return (
@@ -12,10 +13,16 @@ const Checkout = () => {
           <SummaryCard />
           <DeliveryMethodCard />
           <PaymentMethodCard />
-          <ATMPaymentCard />
         </div>
-
-        <div className="col-span-2"></div>
+        <div className="col-span-2 flex flex-col gap-10">
+          <CustomerForm />
+          <BillingForm />
+          <div className="flex justify-end">
+            <button className="bg-[#F53E32] text-white px-5 py-2 rounded-md text-sm">
+              Place Order
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
