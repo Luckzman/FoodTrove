@@ -37,7 +37,7 @@ const Header = () => {
                 } `}
               >
                 <ul className="block lg:flex">
-                  <ListItem NavLink="/#">
+                  <ListItem NavLink="/login">
                     <span className="flex items-center gap-2">
                       <BsPerson /> Account
                     </span>
