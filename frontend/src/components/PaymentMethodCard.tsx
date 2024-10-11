@@ -1,5 +1,3 @@
-import React from "react";
-
 const PaymentMethodCard = () => {
   return (
     <div className="p-[16px] rounded-md border-[1px] border-solid border-[#E9E9E9]">

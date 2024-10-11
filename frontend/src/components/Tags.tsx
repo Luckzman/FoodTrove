@@ -1,5 +1,3 @@
-import React from "react";
-
 const Tags = () => {
   return (
     <div className="py-5 flex gap-2 flex-wrap">

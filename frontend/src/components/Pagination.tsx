@@ -1,8 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
-
-
 const Pagination = () => {
   return (
     <div className="flex items-center justify-between bg-white px-4 py-3 sm:px-6 mt-[28px]">
@@ -23,7 +19,7 @@ const Pagination = () => {
               href="#"
               className="relative inline-flex items-center rounded-l-md px-4 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
             >
-              <span >Previous</span>
+              <span>Previous</span>
             </a>
             <a
               href="#"

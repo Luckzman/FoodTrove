@@ -1,6 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
-// import React from "react";
-
 interface Input extends React.InputHTMLAttributes<Input> {
   label: string;
 }

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useState } from "react";
+import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { IoMdGrid } from "react-icons/io";
 import { TbListDetails } from "react-icons/tb";

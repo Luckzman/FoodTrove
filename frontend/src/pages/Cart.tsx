@@ -1,4 +1,3 @@
-import React from "react";
 import img2 from "../assets/img2.png";
 import { RiDeleteBinLine } from "react-icons/ri";
 import QuantityCounter from "../components/QuantityCounter";

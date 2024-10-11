@@ -1,4 +1,3 @@
-import React from "react";
 import img2 from "../assets/img2.png";
 import StarRating from "./StarRating";
 

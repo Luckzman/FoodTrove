@@ -1,4 +1,3 @@
-import React from "react";
 import SummaryCard from "../components/SummaryCard";
 import DeliveryMethodCard from "../components/DeliveryMethodCard";
 import PaymentMethodCard from "../components/PaymentMethodCard";

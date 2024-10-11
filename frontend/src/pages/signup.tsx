@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../assets/foodtrove-logo.jpg";
 import Input from "../components/Input";
 import { Link } from "react-router-dom";

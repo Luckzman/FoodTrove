@@ -1,8 +1,7 @@
-import React from "react";
-import visa from '../assets/visa.png'
-import mastercard from '../assets/mastercard.png'
-import paypal from '../assets/paypal.png'
-import visaElectron from '../assets/visa-electron.png'
+import visa from "../assets/visa.png";
+import mastercard from "../assets/mastercard.png";
+import paypal from "../assets/paypal.png";
+import visaElectron from "../assets/visa-electron.png";
 
 const ATMPaymentCard = () => {
   return (
@@ -12,20 +11,20 @@ const ATMPaymentCard = () => {
       </h1>
       <div className="flex gap-3 items-center mt-[15px]">
         <div className="flex justify-center items-center p-1 border border-light rounded">
-            <img src={visa} alt="" className="w-10 h-5 cursor-pointer" />
+          <img src={visa} alt="" className="w-10 h-5 cursor-pointer" />
         </div>
         <div className="flex justify-center items-center border p-1 border-light rounded">
-            <img src={mastercard} alt="" className="w-10 h-5 cursor-pointer" />
+          <img src={mastercard} alt="" className="w-10 h-5 cursor-pointer" />
         </div>
         <div className="flex justify-center items-center border border-light p-1 box-border rounded">
-            <img src={paypal} alt="" className="w-10 h-5 cursor-pointer" />
+          <img src={paypal} alt="" className="w-10 h-5 cursor-pointer" />
         </div>
         <div className="flex justify-center items-center border border-light p-1 box-border rounded">
-            <img src={visaElectron} alt="" className="w-10 h-5 cursor-pointer" />
+          <img src={visaElectron} alt="" className="w-10 h-5 cursor-pointer" />
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default ATMPaymentCard;

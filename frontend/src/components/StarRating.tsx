@@ -1,4 +1,3 @@
-import React from "react";
 import { TiStarOutline } from "react-icons/ti";
 
 type StarRating = {

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import React from "react";
+
 import { GoHeart } from "react-icons/go";
 import orangeUrl from "../assets/orange.png";
 import { CiShoppingCart } from "react-icons/ci";
@@ -12,7 +12,6 @@ export type TProductCard = {
   id: number;
 };
 const ProductCard = ({ cardType, id }: TProductCard) => {
-
   const navigate = useNavigate();
 
   return (
